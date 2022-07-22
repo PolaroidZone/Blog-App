@@ -4,7 +4,7 @@
   "description": "A blogging app using node, ejs and mongo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongoose": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
