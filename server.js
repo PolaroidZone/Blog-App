@@ -10,7 +10,7 @@ app.set('view engine', 'ejs')
 
 app.use('/articles', articleRouter)
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => { n
     const articles = [{
         title:  'test article',
         createdAt: new Date(),
