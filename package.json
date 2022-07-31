@@ -1,12 +1,12 @@
 {
   "name": "blog-app",
   "version": "1.0.0",
-  "description": "A blogging app using node, ejs and mongo",
+  "description": "A blogging app using node, ejs and mongoDb",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "author": "",
+  "author": "Tsogang Moswaswa",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
