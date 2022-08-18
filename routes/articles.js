@@ -2,7 +2,7 @@ const express = require('express')
 const Article = require('./../models/article')
 const router = express.Router()
 
-/*Open create new article from view*/
+/*Open create new article form view*/
 router.get('/new', (req, res) => {
   res.render('articles/new.ejs' ,  { article: Article()})
 })
